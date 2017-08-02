@@ -5,7 +5,7 @@ import time
 
 start=time.clock()
 
-h=1; #distance in real space between grid points
+h=0.01; #distance in real space between grid points
 l=60;
 w=60; #number of grid points on each side of the rectangular mesh
 error_limit=10**-6
